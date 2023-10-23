@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
                 }
                 supportFragmentManager.commit {
                     setReorderingAllowed(true)
-                    replace(R.id.activity_detail_fragment_container_view2,DetailFragment(),"test1")
+                    replace(R.id.activity_detail_fragment_container_view,DetailFragment(),"test1")
                     addToBackStack("test1")
                 }
                 activityMainBinding.button1.setText("show Fragment2")

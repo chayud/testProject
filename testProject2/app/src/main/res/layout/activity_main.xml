@@ -27,16 +27,16 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:layout="@layout/fragment_detail" />
 
-        <androidx.fragment.app.FragmentContainerView
-            android:id="@+id/activity_detail_fragment_container_view2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="48dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:layout="@layout/fragment_detail2" />
+<!--        <androidx.fragment.app.FragmentContainerView-->
+<!--            android:id="@+id/activity_detail_fragment_container_view2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="48dp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            tools:layout="@layout/fragment_detail2" />-->
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
